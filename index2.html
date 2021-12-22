@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai2</title>
+</head>
+<body>
+<script>
+    let bankinh = prompt(` Nhập bán kính`);
+    function areaCircle(input) {
+        let r = parseInt(input);
+        return r*r * Math.PI;
+    }
+    function circuit(input) {
+        let r = parseInt(input);
+        return r* 2* Math.PI;
+    }
+    document.write(areaCircle(bankinh) +'<br/>');
+    document.write(circuit(bankinh));
+</script>
+</body>
+</html>
